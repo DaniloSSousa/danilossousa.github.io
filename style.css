@@ -1,0 +1,54 @@
+a:link {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(#ffffff 10%, #b9b9b9 80%, #8b8b8b 110%); 
+}
+
+#img-perfil {
+    border-radius: 50%;
+}
+
+#nome {
+    font-family: "Varela Round", sans-serif;
+    font-size: 45px;
+    color: #006989;
+}
+
+#link-infos {
+    font-family: "Varela Round", sans-serif;
+    font-size: 25px;
+}
+
+#quem-sou-eu {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+}
+
+em {
+    font-weight: bolder;
+    color:#737373;
+}
+
+#habilidades {
+    font-family: "Roboto Mono", monospace;
+    font-size: 30px;
+    list-style: none;
+}
+
+.destaque {
+    font-size: 40px;
+}
+
+.maior {
+    font-size: 30px;
+}
+
+.medio {
+    font-size: 25px;
+}
+
+.menor {
+    font-size: 20px;
+}
