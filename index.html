@@ -9,92 +9,37 @@
 
         <link href="https://fonts.googleapis.com/css?family=Varela+Round&display=swap" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
-        
-        <!-- <style>
-            a:link {
-                text-decoration: none;
-            }
-
-            body {
-                background: linear-gradient(#ffffff 10%, #b9b9b9 80%, #8b8b8b 110%); 
-            }
-
-            #img-perfil {
-                border-radius: 50%;
-            }
-
-            #nome {
-                font-family: "Varela Round", sans-serif;
-                font-size: 45px;
-                color: #006989;
-            }
-
-            #link-infos {
-                font-family: "Varela Round", sans-serif;
-                font-size: 25px;
-            }
-
-            #quem-sou-eu {
-                font-family: "Roboto Mono", monospace;
-                font-size: 30px;
-            }
-
-            em {
-                font-weight: bolder;
-                color:#737373;
-            }
-
-            #habilidades {
-                font-family: "Roboto Mono", monospace;
-                font-size: 30px;
-                list-style: none;
-            }
-
-            .destaque {
-                font-size: 40px;
-            }
-
-            .maior {
-                font-size: 30px;
-            }
-
-            .medio {
-                font-size: 25px;
-            }
-
-            .menor {
-                font-size: 20px;
-            }      
-        </style> -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">   
     </head>
     <body>
-        <a href="imgs/d-ofi.jpg"><img id="img-perfil" src="imgs/d-ofi.jpg" alt="Danilo dos Santos Sousa" height="200px"></a>
-        
-        <h1 id="nome">&#60 DANILO DOS SANTOS SOUSA &#62</h1>
-        
+        <div><h1 id="nome">&#60 DANILO DOS SANTOS SOUSA &#62</h1></div>
+
         <ul id="link-infos">
-            <li id="teste"><a href="#quem-sou-eu">QUEM SOU EU:</a></li>
-            <li><a href="#habilidades">HABILIDADES NINJAS:</a></li>
+            <li id="teste"><a href="#descricao">QUEM SOU EU</a></li>
+            <li><a href="#habilidades">HABILIDADES NINJAS</a></li>
         </ul>
+
+        <div><a href="imgs/d-ofi.jpg"><img id="img-perfil" src="imgs/d-ofi.jpg" alt="Danilo dos Santos Sousa" height="200px"></a></div>
         
         <!-- <h2 id="quem-sou-eu">&#60 Quem sou eu &#62</h2> -->
         
-        <p id="quem-sou-eu">{ <strong>Desenvolvedor Full Stack</strong> fã da série de jogos <strong>Dark Souls</strong>, jogador nato de <strong>Fighting Games</strong> em geral e leitor assíduo do site <strong><a href="https://www.eventhubs.com/" target="_blank">eventhubs.com</a>.</strong><br>
+        <div id="descricao"><p><strong>Desenvolvedor Full Stack</strong> fã da série de jogos <strong>Dark Souls</strong>, jogador nato de <strong>Fighting Games</strong> em geral e leitor assíduo do site <strong><a href="https://www.eventhubs.com/" target="_blank">eventhubs.com</a></strong>.<br><br>
         
-        <em>Brasileiro</em>, atualmente residindo na cidade de <em>Mauá/SP</em> }</p>
+        <em>Brasileiro</em>, atualmente residindo na cidade de <em>Mauá/SP</em>.</p></div>       
         
-        <!-- <h2 id="habilidades">&#60 Habilidades Ninjas &#62</h2> -->
+        <h2 class="head-hab">&#60 Habilidades Ninjas &#62</h2>
         
         <ul id="habilidades">
-            <li class="destaque">Javascript</li>
+            <li class="destaque impar-um">Javascript</li>
             <li class="maior">HTML</li>
-            <li class="maior">CSS</li>
+            <li class="maior impar-dois">CSS</li>
             <li class="medio">React</li>
-            <li class="medio">Node.js</li>
+            <li class="medio impar-tres">Node.js</li>
             <li class="medio">Express.js</li>
-            <li class="menor">SQL</li>
+            <li class="menor impar-quatro">SQL</li>
             <li class="menor">Git</li>
         </ul>
+
+        <p id="versao">VERSÃO INICIAL DE APRENDIZADO</p>
     </body>
 </html>
